@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\cwdub\Documents\kicad\project1\Sauna\Sauna.sch</source>
+    <date>11/13/2018 11:06:42 AM</date>
+    <tool>Eeschema (5.0.1)-3</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Sauna.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>NodeMCU_1.0_(ESP-12E)</value>
+      <libsource lib="ESP8266" part="NodeMCU_1.0_(ESP-12E)" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BEA5477</tstamp>
+    </comp>
+    <comp ref="K1">
+      <value>FINDER-40.11</value>
+      <footprint>Relay_THT:Relay_SPDT_Finder_40.11</footprint>
+      <datasheet>https://www.finder-relais.net/de/finder-relais-serie-40.pdf</datasheet>
+      <libsource lib="Relay" part="FINDER-40.11" description="PCB SPDT relay, 10A"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BEA59AE</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>2N2219</value>
+      <footprint>Package_TO_SOT_THT:TO-39-3</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/2N2219-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="2N2219" description="800mA Ic, 50V Vce, NPN Transistor, TO-39"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BEA5AD9</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>R_Small_US</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BEA6171</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>R_Small_US</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BEA6228</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Barrel_Jack_MountingPin</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Barrel_Jack_MountingPin" description="DC Barrel Jack with a mounting pin"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BEA696A</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Screw_Terminal_01x02</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BEA6AA8</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Screw_Terminal_01x03</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Screw_Terminal_01x03" description="Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BEA6B72</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Barrel_Jack_MountingPin">
+      <description>DC Barrel Jack with a mounting pin</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>BarrelJack*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Barrel_Jack_MountingPin</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="MP" name="MountPin" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Screw_Terminal_01x02">
+      <description>Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Screw_Terminal_01x03">
+      <description>Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small_US">
+      <description>Resistor, small US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small_US</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ESP8266" part="NodeMCU_1.0_(ESP-12E)">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">NodeMCU_1.0_(ESP-12E)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A0(ADC0)" type="input"/>
+        <pin num="2" name="RSV" type="input"/>
+        <pin num="3" name="RSV" type="input"/>
+        <pin num="4" name="SD3(GPIO10)" type="BiDi"/>
+        <pin num="5" name="SD2(GPIO9)" type="BiDi"/>
+        <pin num="6" name="SD1(MOSI)" type="BiDi"/>
+        <pin num="7" name="CMD(CS)" type="BiDi"/>
+        <pin num="8" name="SDO(MISO)" type="BiDi"/>
+        <pin num="9" name="CLK(SCLK)" type="BiDi"/>
+        <pin num="10" name="GND" type="input"/>
+        <pin num="11" name="3.3V" type="power_out"/>
+        <pin num="12" name="EN" type="input"/>
+        <pin num="13" name="RST" type="input"/>
+        <pin num="14" name="GND" type="power_in"/>
+        <pin num="15" name="VIN" type="power_in"/>
+        <pin num="16" name="3.3V" type="power_out"/>
+        <pin num="17" name="GND" type="power_in"/>
+        <pin num="18" name="TX(GPIO1)" type="BiDi"/>
+        <pin num="19" name="RX(DPIO3)" type="BiDi"/>
+        <pin num="20" name="D8(GPIO15)" type="BiDi"/>
+        <pin num="21" name="D7(GPIO13)" type="BiDi"/>
+        <pin num="22" name="D6(GPIO12)" type="BiDi"/>
+        <pin num="23" name="D5(GPIO14)" type="BiDi"/>
+        <pin num="24" name="GND" type="power_in"/>
+        <pin num="25" name="3.3V" type="power_out"/>
+        <pin num="26" name="D4(GPIO2)" type="BiDi"/>
+        <pin num="27" name="D3(GPIO0)" type="BiDi"/>
+        <pin num="28" name="D2(GPIO4)" type="BiDi"/>
+        <pin num="29" name="D1(GPIO5)" type="BiDi"/>
+        <pin num="30" name="D0(GPIO16)" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="Relay" part="FINDER-40.11">
+      <aliases>
+        <alias>FINDER-40.11-2016</alias>
+      </aliases>
+      <description>PCB SPDT relay, 10A</description>
+      <docs>https://www.finder-relais.net/de/finder-relais-serie-40.pdf</docs>
+      <footprints>
+        <fp>Relay*SPDT*Finder*40.11*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">K</field>
+        <field name="Value">FINDER-40.11</field>
+        <field name="Footprint">Relay_THT:Relay_SPDT_Finder_40.11</field>
+      </fields>
+      <pins>
+        <pin num="11" name="~" type="passive"/>
+        <pin num="12" name="~" type="passive"/>
+        <pin num="14" name="~" type="passive"/>
+        <pin num="A1" name="~" type="passive"/>
+        <pin num="A2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="2N2219">
+      <aliases>
+        <alias>BC140</alias>
+        <alias>BC141</alias>
+      </aliases>
+      <description>800mA Ic, 50V Vce, NPN Transistor, TO-39</description>
+      <docs>http://www.onsemi.com/pub_link/Collateral/2N2219-D.PDF</docs>
+      <footprints>
+        <fp>TO?39*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">2N2219</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-39-3</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="ESP8266">
+      <uri>C:\kicad.lib\ESP8266\ESP8266.lib</uri>
+    </library>
+    <library logical="Relay">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Relay.lib</uri>
+    </library>
+    <library logical="Transistor_BJT">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Transistor_BJT.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(Q1-Pad2)">
+      <node ref="Q1" pin="2"/>
+      <node ref="R1" pin="1"/>
+      <node ref="U1" pin="26"/>
+    </net>
+    <net code="2" name="Net-(J3-Pad2)">
+      <node ref="U1" pin="27"/>
+      <node ref="J3" pin="2"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="3" name="Net-(J2-Pad1)">
+      <node ref="K1" pin="14"/>
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="4" name="Net-(J1-PadMP)">
+      <node ref="J1" pin="MP"/>
+    </net>
+    <net code="5" name="GND">
+      <node ref="U1" pin="14"/>
+      <node ref="J1" pin="1"/>
+      <node ref="R1" pin="2"/>
+      <node ref="Q1" pin="1"/>
+    </net>
+    <net code="6" name="Net-(J2-Pad2)">
+      <node ref="K1" pin="11"/>
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="7" name="Net-(K1-PadA2)">
+      <node ref="K1" pin="A2"/>
+      <node ref="Q1" pin="3"/>
+    </net>
+    <net code="8" name="Net-(U1-Pad12)">
+      <node ref="U1" pin="12"/>
+    </net>
+    <net code="9" name="Net-(U1-Pad19)">
+      <node ref="U1" pin="19"/>
+    </net>
+    <net code="10" name="Net-(U1-Pad28)">
+      <node ref="U1" pin="28"/>
+    </net>
+    <net code="11" name="Net-(U1-Pad18)">
+      <node ref="U1" pin="18"/>
+    </net>
+    <net code="12" name="Net-(J3-Pad1)">
+      <node ref="U1" pin="17"/>
+      <node ref="J3" pin="1"/>
+    </net>
+    <net code="13" name="Net-(U1-Pad16)">
+      <node ref="U1" pin="16"/>
+    </net>
+    <net code="14" name="Net-(U1-Pad25)">
+      <node ref="U1" pin="25"/>
+    </net>
+    <net code="15" name="Net-(U1-Pad15)">
+      <node ref="U1" pin="15"/>
+    </net>
+    <net code="16" name="Net-(U1-Pad24)">
+      <node ref="U1" pin="24"/>
+    </net>
+    <net code="17" name="Net-(U1-Pad23)">
+      <node ref="U1" pin="23"/>
+    </net>
+    <net code="18" name="Net-(U1-Pad13)">
+      <node ref="U1" pin="13"/>
+    </net>
+    <net code="19" name="Net-(U1-Pad22)">
+      <node ref="U1" pin="22"/>
+    </net>
+    <net code="20" name="Net-(U1-Pad29)">
+      <node ref="U1" pin="29"/>
+    </net>
+    <net code="21" name="Net-(U1-Pad21)">
+      <node ref="U1" pin="21"/>
+    </net>
+    <net code="22" name="+3V3">
+      <node ref="R2" pin="1"/>
+      <node ref="K1" pin="A1"/>
+      <node ref="J1" pin="2"/>
+      <node ref="J3" pin="3"/>
+      <node ref="U1" pin="11"/>
+    </net>
+    <net code="23" name="Net-(U1-Pad30)">
+      <node ref="U1" pin="30"/>
+    </net>
+    <net code="24" name="Net-(U1-Pad20)">
+      <node ref="U1" pin="20"/>
+    </net>
+    <net code="25" name="Net-(U1-Pad10)">
+      <node ref="U1" pin="10"/>
+    </net>
+    <net code="26" name="Net-(U1-Pad9)">
+      <node ref="U1" pin="9"/>
+    </net>
+    <net code="27" name="Net-(U1-Pad8)">
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="28" name="Net-(U1-Pad7)">
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="29" name="Net-(U1-Pad6)">
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="30" name="Net-(U1-Pad5)">
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="31" name="Net-(U1-Pad4)">
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="32" name="Net-(U1-Pad3)">
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="33" name="Net-(U1-Pad2)">
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="34" name="Net-(K1-Pad12)">
+      <node ref="K1" pin="12"/>
+    </net>
+    <net code="35" name="Net-(U1-Pad1)">
+      <node ref="U1" pin="1"/>
+    </net>
+  </nets>
+</export>
